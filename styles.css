@@ -1,5 +1,5 @@
-/* Olive Transit Diagram — see DESIGN.md.
-   Grammar: olive enamel ground, deep mustard wash on the key artifacts
+/* Forest Transit Diagram — see DESIGN.md.
+   Grammar: forest enamel ground, lime wash on the key artifacts
    (boards, panels, station tables), porcelain strokes, nine line inks used
    for state only. No gradients, no glass, no shadows. Pills and route cards. */
 
@@ -11,14 +11,14 @@
 }
 
 :root[data-theme="dark"] {
-  --ground: #26280e;
+  --ground: #0c2419;
   --stroke: rgba(240, 244, 255, 0.16);
   --stroke-hi: rgba(240, 244, 255, 0.32);
   --porcelain: #f5f6f2;
-  --text-2: #c3c7a2;
-  --text-3: #8d9170;
-  --mustard: #cf9f26;
-  --wash-mustard: rgba(207, 159, 38, 0.12);
+  --text-2: #b9d2c6;
+  --text-3: #7fab94;
+  --lime: #b8e33c;
+  --wash-lime: rgba(184, 227, 60, 0.12);
   --scarlet: #e7002a;
   --cobalt: #0057ff;
   --amber: #ffb800;
@@ -42,9 +42,9 @@
 }
 
 :root[data-theme="light"] {
-  --ground: #edeedd;
-  --mustard: #8a6a10;
-  --wash-mustard: rgba(138, 106, 16, 0.10);
+  --ground: #ecf1ea;
+  --lime: #6d8f14;
+  --wash-lime: rgba(109, 143, 20, 0.10);
   --stroke: rgba(16, 23, 51, 0.20);
   --stroke-hi: rgba(16, 23, 51, 0.42);
   --porcelain: #101733;
@@ -168,7 +168,7 @@ a { color: var(--t-cobalt); }
   border-radius: var(--r-panel);
   margin-bottom: 20px;
   overflow: hidden;
-  background: var(--wash-mustard);
+  background: var(--wash-lime);
 }
 .board-cell {
   padding: 14px 16px 12px;
@@ -216,7 +216,7 @@ a { color: var(--t-cobalt); }
 .panel {
   border: 1.5px solid var(--stroke);
   border-radius: var(--r-panel);
-  background: var(--wash-mustard);
+  background: var(--wash-lime);
 }
 .panel-head {
   display: flex;
@@ -458,7 +458,7 @@ a { color: var(--t-cobalt); }
   border: 1.5px solid var(--stroke);
   border-radius: var(--r-panel);
   margin-bottom: 8px;
-  background: var(--wash-mustard);
+  background: var(--wash-lime);
 }
 .legend-ink {
   width: 26px; height: 6px;
@@ -598,7 +598,7 @@ a { color: var(--t-cobalt); }
   border-radius: var(--r-panel);
   margin-bottom: 10px;
   overflow: hidden;
-  background: var(--wash-mustard);
+  background: var(--wash-lime);
 }
 .phase-group summary {
   list-style: none;
