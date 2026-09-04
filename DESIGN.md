@@ -1,14 +1,17 @@
 # DESIGN.md
 
-Visual world: midnight transit diagram, inherited unchanged from the LLM
-Mastery Line (2026-08-02). The curriculum is a journey: 76 sessions are
-stations on nine colored lines, one line per phase. The interchange between
-phase 5 and phase 6 is where the short term goal (deliver marketing for any
-SMB) hands over to the long term goal (master the full umbrella).
+Visual world: pine enamel transit diagram, sister variant of the LLM Mastery
+Line's midnight (2026-09-04 re-ink: ground changed from midnight navy #0a1330
+to pine green #07281f so the two dashboards are distinct at a glance; all line
+inks, porcelain, and rules unchanged). The curriculum is a journey: 76
+sessions are stations on nine colored lines, one line per phase. The
+interchange between phase 5 and phase 6 is where the short term goal (deliver
+marketing for any SMB) hands over to the long term goal (master the full
+umbrella).
 
 ## Material rules
 
-- Ground is midnight enamel. Panels sit on the same ground, bounded by thin
+- Ground is pine enamel. Panels sit on the same ground, bounded by thin
   porcelain-tinted strokes (1px, rgba porcelain at low alpha), radius 10px.
   Pills (buttons, chips) are fully rounded.
 - No gradients, no glass, no blur, no drop shadows. Depth comes from stroke
@@ -18,15 +21,15 @@ SMB) hands over to the long term goal (master the full umbrella).
 
 ## Palette (dark, default: evening study scene)
 
-- Midnight enamel ground: `#0a1330`
+- Pine enamel ground: `#07281f`
 - Panel stroke: `rgba(240, 244, 255, 0.16)`; hover `0.30`
 - Porcelain (display text, filled station dots): `#f5f6f2`
-- Body text: `#b9c2da` (tinted from ground hue, never gray)
-- Faint text: `#7d89ab`
+- Body text: `#bad2c6` (tinted from ground hue, never gray)
+- Faint text: `#7dab97`
 - Line inks (fills, strokes): scarlet `#e7002a`, cobalt `#0057ff`,
   amber `#ffb800`, green `#009b4d`, magenta `#c7377b`, sky `#38b6e8`,
   violet `#8a63d2`, orange `#ff6a13`, teal `#00a3a3`
-- Text-safe accent variants on midnight: scarlet `#ff5c6e`, cobalt `#5b93ff`,
+- Text-safe accent variants on pine: scarlet `#ff5c6e`, cobalt `#5b93ff`,
   green `#1fbf72`, orange `#ff8a4a`, teal `#2cc5c5`. Amber, sky, magenta,
   violet pass as-is for large text.
 - Phase to line: p1 scarlet, p2 cobalt, p3 amber, p4 green, p5 magenta
@@ -36,7 +39,7 @@ SMB) hands over to the long term goal (master the full umbrella).
 
 ## Palette (light variant: printed pocket map)
 
-Ground `#f2f0ea` (map paper), stroke `rgba(16, 23, 51, 0.20)`, display text
+Ground `#eef2ec` (sage map paper), stroke `rgba(16, 23, 51, 0.20)`, display text
 `#101733`, body `#3c465f`, faint `#67718c`. Line inks unchanged (designed
 for white enamel). Text-safe variants: scarlet `#c30023`, cobalt `#0046cc`,
 green `#008140`, amber `#8f6700`, sky `#0e7fad`, magenta `#a12762`,
