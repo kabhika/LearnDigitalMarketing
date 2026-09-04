@@ -25,7 +25,7 @@ umbrella).
 ## Palette (dark, default: evening study scene)
 
 - Olive enamel ground: `#26280e`
-- Deep mustard ink: `#cf9f26`; artifact wash `rgba(207, 159, 38, 0.08)`
+- Deep mustard ink: `#cf9f26`; artifact wash `rgba(207, 159, 38, 0.12)`
 - Panel stroke: `rgba(240, 244, 255, 0.16)`; hover `0.30`
 - Porcelain (display text, filled station dots): `#f5f6f2`
 - Body text: `#c3c7a2` (tinted from ground hue, never gray)
@@ -44,7 +44,7 @@ umbrella).
 ## Palette (light variant: printed pocket map)
 
 Ground `#edeedd` (olive map paper), mustard ink `#8a6a10`, artifact wash
-`rgba(138, 106, 16, 0.07)`, stroke `rgba(16, 23, 51, 0.20)`, display text
+`rgba(138, 106, 16, 0.10)`, stroke `rgba(16, 23, 51, 0.20)`, display text
 `#101733`, body `#3c465f`, faint `#67718c`. Line inks unchanged (designed
 for white enamel). Text-safe variants: scarlet `#c30023`, cobalt `#0046cc`,
 green `#008140`, amber `#8f6700`, sky `#0e7fad`, magenta `#a12762`,
