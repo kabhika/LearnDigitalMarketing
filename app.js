@@ -395,15 +395,17 @@ function renderMap() {
       <circle cx="${p.x}" cy="${p.y}" r="3" fill="var(--ground)" stroke="var(--porcelain)" stroke-width="1.5"></circle>`;
   }
 
-  // termini
+  // termini. The depart label sits below its dot and the terminus label to
+  // the right of its dot, so neither can collide with the you-are-here
+  // label at journey start or run off the canvas at journey end.
   const start = geo.at(0.002), end = geo.at(0.998);
   const terminus = `
     <circle cx="${start.x}" cy="${start.y}" r="9" fill="var(--porcelain)"></circle>
     <circle cx="${start.x}" cy="${start.y}" r="4" fill="${LINE_INK.p1}"></circle>
-    <text class="map-label strong" x="${start.x - 14}" y="${start.y - 16}">Depart: today's level</text>
+    <text class="map-label strong" x="${start.x - 14}" y="${start.y + 30}">Depart: today's level</text>
     <circle cx="${end.x}" cy="${end.y}" r="9" fill="var(--porcelain)"></circle>
     <circle cx="${end.x}" cy="${end.y}" r="4" fill="${LINE_INK.p9}"></circle>
-    <text class="map-label strong" x="${end.x - 150}" y="${end.y + 28}">Terminus: full-stack digital marketer</text>`;
+    <text class="map-label strong" x="${end.x + 16}" y="${end.y + 28}">Terminus: full-stack digital marketer</text>`;
 
   // you-are-here label
   let hereLabel = "";
