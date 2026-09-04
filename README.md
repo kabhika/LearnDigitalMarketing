@@ -10,7 +10,7 @@ Line dashboard with the same engine.
 
 ```
 index.html   page shell
-styles.css   pine transit theme (see DESIGN.md), dark/light
+styles.css   olive transit theme, mustard-washed artifacts (see DESIGN.md), dark/light
 data.js      curriculum: 9 phases, 76 tasks with direct resource links
 app.js       scheduler, progress, streak, notes, localStorage persistence
 PRODUCT.md   product truth (audience, goals, constraints)
