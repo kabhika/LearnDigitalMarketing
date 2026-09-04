@@ -1,5 +1,5 @@
-/* Midnight Transit Diagram — see DESIGN.md.
-   Grammar: midnight enamel ground, porcelain strokes, nine line inks used
+/* Pine Transit Diagram — see DESIGN.md.
+   Grammar: pine enamel ground, porcelain strokes, nine line inks used
    for state only. No gradients, no glass, no shadows. Pills and route cards. */
 
 :root {
@@ -10,12 +10,12 @@
 }
 
 :root[data-theme="dark"] {
-  --ground: #0a1330;
+  --ground: #07281f;
   --stroke: rgba(240, 244, 255, 0.16);
   --stroke-hi: rgba(240, 244, 255, 0.32);
   --porcelain: #f5f6f2;
-  --text-2: #b9c2da;
-  --text-3: #7d89ab;
+  --text-2: #bad2c6;
+  --text-3: #7dab97;
   --scarlet: #e7002a;
   --cobalt: #0057ff;
   --amber: #ffb800;
@@ -39,7 +39,7 @@
 }
 
 :root[data-theme="light"] {
-  --ground: #f2f0ea;
+  --ground: #eef2ec;
   --stroke: rgba(16, 23, 51, 0.20);
   --stroke-hi: rgba(16, 23, 51, 0.42);
   --porcelain: #101733;
