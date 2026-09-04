@@ -39,7 +39,7 @@ Operate. This is a daily-use tool, not a landing page.
   dashboard's progress in the same browser is never touched.
 
 ## Brand commitments
-Inherited engine from the LLM Mastery Line; visual world re-inked to olive
-enamel with a deep mustard wash lifting the key artifacts, so the two
-dashboards are distinct at a glance.
+Inherited engine from the LLM Mastery Line; visual world re-inked to forest
+enamel with a lime wash lifting the key artifacts, so the two dashboards are
+distinct at a glance.
 The dark glassmorphism launch look remains rejected as generic AI output.
